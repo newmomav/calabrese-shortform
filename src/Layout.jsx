@@ -121,14 +121,9 @@ const Layout = ({ children }) => {
       } z-10`}
     >
       {isHomePage && isMobile && (
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
+        <img
           style={videoStyle}
-          src="/landing-page.mp4"
-          type="video/mp4"
+          src="/landing-page.gif"
           alt="table full of ceramic table ware"
         />
       )}

@@ -1,13 +1,9 @@
 const Gif = ({ infoVisible }) => {
   return (
     <div className="relative w-full h-full -z-20">
-      <video
+      <img
         className="h-full w-full object-cover z-0"
-        autoPlay
-        loop
-        muted
-        src="/landing-page.mp4"
-        type="video/mp4"
+        src="/landing-page.gif"
         alt="table full of ceramic table ware"
       />
       {infoVisible && (
